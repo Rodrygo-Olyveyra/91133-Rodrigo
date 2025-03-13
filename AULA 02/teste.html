@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .signature-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .signature-container img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-right: 15px;
+        }
+
+        .signature-text {
+            max-width: 500px;
+            line-height: 1.5;
+        }
+
+        .signature-text h3 {
+            margin: 0;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2C3E50;
+        }
+
+        .signature-text p {
+            margin: 2px 0;
+            color: #34495E;
+        }
+
+        .signature-text a {
+            text-decoration: none;
+            color: #3498DB;
+        }
+
+        /* Responsividade */
+        @media (max-width: 600px) {
+            .signature-container {
+                text-align: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .signature-container img {
+                margin-bottom: 10px;
+            }
+
+            .signature-text {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="signature-container">
+        <!-- Foto de Perfil -->
+        <img src="url-da-sua-foto.jpg" alt="Vinicius Salles">
+
+        <!-- Informações -->
+        <div class="signature-text">
+            <h3>Vinicius Salles</h3>
+            <p><strong>Cargo:</strong> Analista de Experiência do Cliente</p>
+            <p><strong>Setor:</strong> A.E & Qualidade</p>
+            <p><strong>Instituição:</strong> PUCPR</p>
+            <p><a href="https://www.pucpr.br" target="_blank">www.pucpr.br</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

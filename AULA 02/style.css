@@ -1,0 +1,29 @@
+/*Seletores CSS*/
+table{
+
+    /*Largura da tabela*/
+    width: 100%;
+    /*Colacar borda*/
+    border: 2px solid;
+}
+
+td{
+    /*Cenralizar os elementos*/
+    text-align: center;
+}
+
+thead{
+
+    background-color: aquamarine;
+    background-color: blueviolet;
+}
+
+
+h1{
+      /*Cenralizar os elementos*/
+      text-align: center;
+      /*Cor do texto*/
+color: yellowgreen;
+/*Colocar em negrito*/
+font-weight: bold   ;
+    }
