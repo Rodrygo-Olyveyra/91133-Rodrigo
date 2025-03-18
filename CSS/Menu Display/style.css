@@ -1,0 +1,87 @@
+/*Zera as config da pág*/
+
+*{
+    margin: 0; /*Tira a margem*/
+    padding: 0; /*Zera o espaço*/
+    box-sizing: border-box; /*Zera as bordas*/
+}
+
+header{
+
+    background-color:rgb(94, 87, 87) ;
+margin: 15px;
+padding: 30px;
+
+}
+
+ul li{
+/*Tira as bolas*/
+list-style: none;
+display: inline;
+padding: 8px;
+}
+
+a{
+    
+    text-decoration: none;
+    color: rgb(195, 207, 26);
+    font-weight: bold;
+    font-size: 18pt;
+    cursor: pointer;
+}
+
+a:hover{
+
+     color: yellow;
+     text-decoration: overline;
+     padding: 12px;
+     transition: 0.5ms;
+
+}
+
+section{
+    margin: 30px;
+    margin: 50px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 25pt;
+     background-color: rgb(94, 87, 87);
+     color: yellow;
+     padding: 15px;
+display: inline-block;
+}
+/*
+.about{
+    background-color: rgb(255, 0, 0);
+}
+*/
+
+#font-type{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+p{
+    padding: 15opx;
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    margin: 30px;
+    
+}
+
+.rodape{
+    margin: 30px;
+    text-align: center;
+font-size: 18pt;
+display: block;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
