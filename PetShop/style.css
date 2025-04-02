@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgb(245, 188, 0);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    border-bottom: 4px solid orange;
+}
+
+header img {
+    max-width: 200px;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px; 
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header li {
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    
+    color: black;
+    font-size: 20px;
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.banner{
+position: relative;
+text-align: center;
+margin-bottom: 30px;
+
+}
+
+.banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+section{
+    position: relative;
+    text-align: center;
+}
+
+
+section img{
+    width: 100%;
+    display: block;
+    
+}
+
+section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.banner p {
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sobre {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff6e6;
+}
+
+.sobre p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+footer{
+    background-color: rgb(245, 188, 0);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    border-bottom: 4px solid orange;
+}
+
+.sobre h2{
+    color: orange;
+    font-size: 36px ;
+}
+
+h2{
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+    }
+}
+
+.sobre .botao {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+

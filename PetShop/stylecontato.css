@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(245, 188, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 4px solid orange;
+}
+
+header img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: block;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header li {
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #ff6600; 
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px; 
+    color: orange;
+    text-align: center; 
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #444;
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.contato input:focus,
+.contato textarea:focus {
+    border-color: #ff6600;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e65c00;
+}
+
+.whatsapp-contato {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.whatsapp-contato h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.whatsapp-botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-botao img {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+.whatsapp-botao:hover {
+    background-color: #128c7e;
+}
+
+footer{
+    background-color: rgb(245, 188, 0);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    border-bottom: 4px solid orange;
+}
